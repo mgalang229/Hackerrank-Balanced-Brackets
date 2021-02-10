@@ -26,23 +26,17 @@ int main() {
 				if (x[i] == ')') {
 					if (iStack.top() == '(') {
 						cnt++;
-						if (!iStack.empty()) {
-							iStack.pop();
-						}
+						iStack.pop();
 					}
 				} else if (x[i] == '}') {
 					if (iStack.top() == '{') {
 						cnt++;
-						if (!iStack.empty()) {
-							iStack.pop();
-						}
+						iStack.pop();
 					}
 				} else if (x[i] == ']') {
 					if (iStack.top() == '[') {
 						cnt++;
-						if (!iStack.empty()) {
-							iStack.pop();
-						}
+						iStack.pop();
 					}
 				}
 			}
